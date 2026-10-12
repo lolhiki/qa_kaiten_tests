@@ -9,6 +9,7 @@ def get_access_level(role: str):
         case _:
             return "none"
 
+
 if __name__ == "__main__":
     tests = ["admin", "manager", "user", "guest"]
     for t in tests:
